@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>build or no build fortnite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    var links = 0;
+    var rechts = 0;
+    function ietslinks() {
+        links += 1;
+        document.getElementById("number_links").innerHTML = links;
+        document.getElementById("button_links").innerHTML = "Thank you";
+        document.getElementById("button_links").disabled = true;
+
+    }
+    function ietsrechts() {
+        rechts += 1;
+        document.getElementById("number_rechts").innerHTML = rechts;
+        document.getElementById("button_rechts").innerHTML = "Thank you";
+        document.getElementById("button_rechts").disabled = true;
+    }
+</script>
+
+<body>
+    <div class="content">
+        <img src="fortnite-build2.jpg" class="leftimage">
+        <img src="no build.jpg.jpg" class="rightimage">
+    </div>
+    <div class="content">
+        <div class="column">
+            <p id="number_links" class="number">0</o>
+        </div>
+        <div class="column">
+            <button id="button_links" class="buttonleft" onclick="ietslinks()">best⬆️ </button>
+        </div>
+        <div class="column">
+            <button id="button_rechts" class="buttonright" onclick="ietsrechts()">best⬆️ </button>
+        </div>
+        <div class="column">
+            <p id="number_rechts" class="number">0</p>
+        </div>
+    </div>
+</body>
+
+</html>

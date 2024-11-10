@@ -1,0 +1,59 @@
+.content {
+    /* background-color: yellow; */
+    margin: auto;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 50vh;
+    /* Volledige hoogte van het viewport */
+    vertical-align: top;
+}
+
+p {
+    /* background-color: #00ff00; */
+    margin: 0px;
+}
+
+.leftimage {}
+
+.rightimage {}
+
+.column {
+
+    float: left;
+    width: 100px;
+    /* vertical-align: middle; */
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    /* border: solid 1px; */
+    /* height: 100px; */
+    /* background-color: red; */
+
+}
+
+.number {
+    font-size: 30px;
+
+}
+
+.buttonright {
+    float: right;
+    background-color: #333333;
+    color: #00ff00;
+    border-radius: 5px;
+    width: 100px;
+    height: 47px;
+    font-size: 20px;
+}
+
+.buttonleft {
+    background-color: #333333;
+    color: #00ff00;
+    border-radius: 5px;
+    width: 100px;
+    height: 47px;
+    font-size: 20px;
+}
